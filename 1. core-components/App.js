@@ -3,8 +3,8 @@ import { StyleSheet, Text, View, SafeAreaView, Image, Button, Linking } from 're
 import myPic from "./assets/taswirti.jpg"
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <View>
+    <SafeAreaView>
+      <View style={styles.container}>
         <Image
           source={myPic}
           style={styles.picture}
